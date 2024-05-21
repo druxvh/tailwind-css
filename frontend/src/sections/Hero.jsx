@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container border-2 border-red-500 p-2"
+      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container  p-2"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red">
@@ -49,7 +49,7 @@ const Hero = () => {
         />
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
           {shoes.map((shoe) => (
-            <div key={shoe}>
+            <div key={shoe.bigShoe}>
               <ShoeCard 
               imgURL= {shoe}
               changeBigShoeImage={(shoe)=>{setbigShoeImage(shoe)}}
