@@ -36,7 +36,7 @@ const Footer = () => {
                     key={link.name}
                     className="text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray"
                   >
-                    <a  href={link.link}>{link.name}</a>
+                    <a  href={link.link} target="_blank">{link.name}</a>
                   </li>
                 ))}
               </ul>
