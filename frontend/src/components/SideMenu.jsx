@@ -19,10 +19,10 @@ const SideMenu = () => {
           <li key={item.label}>
             <a
               href={item.href}
-              className="font-montserrat leading-normal text-lg text-white font-bold hover:underline"
+              className=" block font-montserrat leading-normal text-lg text-white font-bold hover:underline "
               onClick={()=>setIsTrue(false)}
             >
-              {" "}
+              
               {item.label}
             </a>
           </li>

@@ -22,7 +22,6 @@ const Nav = () => {
                 href={item.href}
                 className="font-montserrat leading-normal text-lg text-slate-gray hover:font-medium"
               >
-                
                 {item.label}
               </a>
             </li>
@@ -36,7 +35,9 @@ const Nav = () => {
         </div>
       </nav>
 
-      <div className="fixed top-0 left-0 right-0">{sideMenu && <SideMenu />}</div>
+      <div className="fixed top-0 left-0 right-0">
+        {sideMenu && <SideMenu />        }
+      </div>
     </header>
   );
 };
