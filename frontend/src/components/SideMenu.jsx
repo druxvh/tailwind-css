@@ -29,7 +29,7 @@ const SideMenu = () => {
         ))}
       </ul>
       <div
-        className="absolute right-10 top-10  hover:text-slate-300 text-white  font-montserrat text-3xl   cursor-pointer"
+        className="absolute right-16 top-6  hover:text-slate-300 text-white  font-montserrat text-3xl   cursor-pointer"
         onClick={toggleSidebar}
       >
         X
