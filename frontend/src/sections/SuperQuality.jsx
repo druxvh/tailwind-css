@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../components/Button";
-import { arrowRight } from "../assets/icons";
 import { shoe8 } from "../assets/images";
 
 const SuperQuality = () => {
@@ -25,7 +24,7 @@ const SuperQuality = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi!
         </p>
         <div className="mt-11">
-          <Button label="View Details" />
+          <Button label="View Details" link={"https://www.nike.com/in/"}/>
         </div>
       </div>
       <div className="flex flex-1 justify-center items-center">

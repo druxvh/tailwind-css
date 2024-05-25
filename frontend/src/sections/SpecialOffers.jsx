@@ -23,8 +23,8 @@ const SpecialOffers = () => {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eveniet itaque magni dolorem aliquid perferendis iure et voluptate.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Shop Now" iconURL={arrowRight} />
-          <Button label="Learn More" backgroundColor = "bg-white" borderColor = "border-slate-gray" textColor = "text-slate-gray" />
+          <Button label="Shop Now" iconURL={arrowRight} link={"https://www.nike.com/in/"} />
+          <Button label="Learn More" backgroundColor = "bg-white" borderColor = "border-slate-gray" textColor = "text-slate-gray" link={"https://www.nike.com/in/"} />
         </div>
       </div>
     </section>
